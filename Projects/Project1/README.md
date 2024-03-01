@@ -1,27 +1,27 @@
-# Web Development Project 1 - *Staten Island Pizza Favorites
-*
+# Web Development Project 1 - *Staten Island Pizza Favorites*
 
-Submitted by: **Your Name Here**
+Submitted by: **Artem Guz**
 
-This web app: **insert description**
+This web app: **This web page showcases the best pizza places in Staten Island, guiding you directly to their websites to order your favorite pizza.**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [x] Buttons or links to a related resources are on each card component
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] List anything else that you added to improve the site's functionality!
+Applied a transition effect on the card component, which is activated when the user hovers over it.
 
 ## Video Walkthrough
 
@@ -38,11 +38,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Navigating the file structure was initially challenging as this was only my second React project. Throughout development, I encountered a learning curve with React's unique way of handling components and state, which differs from traditional HTML/CSS. Mastering props and state management was particularly enlightening, offering a deeper understanding of dynamic web application development.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Artem Guz]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
