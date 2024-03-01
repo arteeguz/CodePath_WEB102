@@ -21,22 +21,25 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [x] List anything else that you added to improve the site's functionality!
+
 Applied a transition effect on the card component, which is activated when the user hovers over it.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Animation](https://github.com/arteeguz/CodePath_WEB102/assets/118378371/b80e5240-c70e-4ae2-8bdb-429d483d3d61)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with screentogif
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
+
+Describe any challenges encountered while building the app.
 
 Navigating the file structure was initially challenging as this was only my second React project. Throughout development, I encountered a learning curve with React's unique way of handling components and state, which differs from traditional HTML/CSS. Mastering props and state management was particularly enlightening, offering a deeper understanding of dynamic web application development.
 
