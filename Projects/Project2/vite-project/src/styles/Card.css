@@ -25,3 +25,11 @@
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
+.card.europe {
+  background-color: rgb(203, 255, 13); 
+}
+
+.card.asia {
+  background-color: rgb(255, 94, 120); 
+}
