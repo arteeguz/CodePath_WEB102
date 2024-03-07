@@ -3,24 +3,22 @@ import Card from './components/Card'
 import './App.css'
 
 const cardData = [
-  { question: 'What is the capital of France?', answer: 'Paris' },
-  { question: 'What is the capital of Germany?', answer: 'Berlin' },
-  { question: 'What is the capital of Italy?', answer: 'Rome' },
-  { question: 'What is the capital of Japan?', answer: 'Tokyo' },
-  { question: 'What is the capital of Russia?', answer: 'Moscow' },
   { question: 'What is the capital of Australia?', answer: 'Canberra' },
+  { question: 'What is the capital of France?', answer: 'Paris', imageUrl: '/photos/france.png', category: 'Europe' },
   { question: 'What is the capital of Canada?', answer: 'Ottawa' },
+  { question: 'What is the capital of Germany?', answer: 'Berlin', imageUrl: '/photos/germany.png', category: 'Europe' },
   { question: 'What is the capital of Brazil?', answer: 'Brasília' },
+  { question: 'What is the capital of Italy?', answer: 'Rome', imageUrl: '/photos/italy.png', category: 'Europe' },
   { question: 'What is the capital of India?', answer: 'New Delhi' },
+  { question: 'What is the capital of Japan?', answer: 'Tokyo', imageUrl: '/photos/japan.png', category: 'Asia' },
   { question: 'What is the capital of South Africa?', answer: 'Pretoria' },
+  { question: 'What is the capital of Russia?', answer: 'Moscow', imageUrl: '/photos/russia.png', category: 'Europe' },
   { question: 'What is the capital of Egypt?', answer: 'Cairo' },
-  { question: 'What is the capital of China?', answer: 'Beijing' },
-  { question: 'What is the capital of Argentina?', answer: 'Buenos Aires' },
 ];
 
 function App() {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
-  const [isQuestion, setIsQuestion] = useState(false);
+  const [isQuestion, setIsQuestion] = useState(true);
 
   const handleCardClick = () => {
     setIsQuestion(!isQuestion);
@@ -32,15 +30,18 @@ function App() {
     setIsQuestion(true);
   };
 
+  const currentCard = cardData[currentCardIndex];
+
   return (
     <div className="app">
       <div className="card-container">
         <h1>Geography Trip</h1>
         <p>How good of a geographer are you? Test all of your Country knowledge here!</p>
-        <p>Number of Cards: {cardData.length} </p> 
+        <p>Card {currentCardIndex + 1} of {cardData.length}</p>
         <Card
-          content={isQuestion ? cardData[currentCardIndex].question : cardData[currentCardIndex].answer}
+          content={isQuestion ? currentCard.question : currentCard.answer}
           onClick={handleCardClick}
+          imageUrl={isQuestion ? currentCard.imageUrl : null} // Display image only for the question
         />
         <button className="next-button" onClick={handleNextClick}>Next</button>
       </div>
