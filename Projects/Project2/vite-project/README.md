@@ -4,7 +4,7 @@ Submitted by: **Artem Guz**
 
 This web app: **This web app is a flashcard application designed to help users learn and test their knowledge interactively. It features a collection of cards, each displaying a question related to geography. When a user clicks on a card, it reveals the answer. Users can navigate through the cards randomly, and a counter displays the current card number and the total number of cards, helping users track their progress. The simple and intuitive interface makes it an effective tool for learning and testing geographical knowledge.**
 
-Time spent: **8** hours spent in total
+Time spent: **12** hours spent in total
 
 ## Required Features
 
@@ -18,22 +18,22 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
+- [x] Cards contains images in addition to or in place of text
+- [x] Cards have different visual styles such as color based on their category
+  - [x] *visual style implemented*
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] **Implemented animation when click on the card**
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![CodePathProject2](https://github.com/arteeguz/CodePath_WEB102/assets/118378371/1030ec8a-0c1e-4928-beea-35018c6b6098)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with OBS  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -41,11 +41,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Creating the flip animation for the flashcards turned out to be more challenging than I anticipated. Despite my efforts, I couldn't get the animation to work exactly as I had envisioned. However, I still managed to implement a nice, simpler animation that added a good level of interactivity to the flashcards. This experience taught me to adapt and find creative solutions when faced with technical limitations.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Artem Guz]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
